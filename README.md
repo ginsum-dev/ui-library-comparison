@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UI 라이브러리 비교 프로젝트
 
-## Getting Started
+> **shadcn/ui vs Ant Design vs Material-UI** 세 가지 인기 React UI 라이브러리 비교
 
-First, run the development server:
+## 📖 프로젝트 소개
+
+하나의 Next.js 프로젝트에서 세 가지 UI 라이브러리로 동일한 컴포넌트들을 구현하여 직접 비교해보는 프로젝트입니다.
+
+### 비교 대상
+
+- **shadcn/ui** - TailwindCSS 기반의 유연하고 커스터마이징이 쉬운 최신 UI 컴포넌트 모음.
+- **Ant Design** - 기업용 디자인에 특화된 세련되고 구조화된 UI 컴포넌트 라이브러리.
+- **Material-UI** - Google의 머티리얼 디자인을 따르는 직관적이고 반응형 UI 컴포넌트 라이브러리.
+
+## 🛠️ 기술 스택
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+
+## 🚀 실행 방법
 
 ```bash
+# 의존성 설치
+npm install
+
+# 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📋 비교 계획
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [ ] 기본 설정 및 프로젝트 구조
+- [ ] Button 컴포넌트
+- [ ] Form 컴포넌트
+- [ ] Navigation 컴포넌트
+- [ ] 성능 및 번들 크기 분석
+- [ ] 최종 결론 및 추천
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📁 폴더 구조
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+app/
+├── shadcn/     # shadcn/ui 구현
+├── antd/       # Ant Design 구현
+└── mui/        # Material-UI 구현
+```
