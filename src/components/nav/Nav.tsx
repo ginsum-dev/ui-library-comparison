@@ -6,15 +6,15 @@ const navList = [
     link: "/",
   },
   {
-    text: "shadcn-ui",
+    text: "Shadcn/ui",
     link: "/shadcn",
   },
   {
-    text: "antdesign",
+    text: "Ant Design",
     link: "/antd",
   },
   {
-    text: "MUI",
+    text: "Material UI",
     link: "/mui",
   },
 ];
