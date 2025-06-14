@@ -16,7 +16,7 @@ export default function ShadcnPage() {
     <div className="flex flex-col gap-4 py-4">
       <div className="flex gap-2">
         <Input type="email" placeholder="Email" className="w-60" />
-        <Button variant="outline">Button</Button>
+        <Button>Button</Button>
       </div>
       <div className="flex gap-2">
         <Select>
@@ -27,7 +27,9 @@ export default function ShadcnPage() {
             <SelectGroup>
               <SelectLabel>Fruits</SelectLabel>
               {selectList.map(({ value, label }) => (
-                <SelectItem value={value}>{label}</SelectItem>
+                <SelectItem value={value} key={value}>
+                  {label}
+                </SelectItem>
               ))}
             </SelectGroup>
           </SelectContent>
