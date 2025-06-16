@@ -1,5 +1,6 @@
 import { Button, Input, Select } from "antd";
 import { selectList } from "@/lib/data";
+import AntdTable from "@/components/antd/Table";
 
 export default function AntdPage() {
   return (
@@ -15,6 +16,9 @@ export default function AntdPage() {
           options={selectList}
         />
         <Button>Button</Button>
+      </div>
+      <div>
+        <AntdTable />
       </div>
     </div>
   );
