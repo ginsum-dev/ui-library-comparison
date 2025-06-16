@@ -30,10 +30,9 @@ npm run dev
 
 ## 📋 비교 계획
 
-- [ ] 기본 설정 및 프로젝트 구조
-- [ ] Button 컴포넌트
-- [ ] Form 컴포넌트
-- [ ] Navigation 컴포넌트
+- [x] 기본 설정 및 프로젝트 구조
+- [x] Button, Input, Select 컴포넌트
+- [ ] Table 컴포넌트
 - [ ] 성능 및 번들 크기 분석
 - [ ] 최종 결론 및 추천
 
