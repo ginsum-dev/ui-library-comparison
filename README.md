@@ -32,8 +32,7 @@ npm run dev
 
 - [x] 기본 설정 및 프로젝트 구조
 - [x] Button, Input, Select 컴포넌트
-- [ ] Table 컴포넌트
-- [ ] 성능 및 번들 크기 분석
+- [x] Table 컴포넌트
 - [ ] 최종 결론 및 추천
 
 ## 📁 폴더 구조
