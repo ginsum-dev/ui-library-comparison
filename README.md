@@ -16,7 +16,10 @@
 
 - Next.js 14
 - TypeScript
-- Tailwind CSS
+- TailwindCss
+- Shadcn/ui
+- Ant Design
+- Material-UI
 
 ## 🚀 실행 방법
 
