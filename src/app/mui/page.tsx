@@ -6,6 +6,7 @@ import TextField from "@mui/material/TextField";
 export default function MUIPage() {
   return (
     <div className="flex flex-col gap-4 py-4">
+      <span className="flex justify-center text-2xl font-bold">MUI</span>
       <div className="flex justify-between">
         <div className="flex gap-2">
           <TextField

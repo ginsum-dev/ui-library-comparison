@@ -15,6 +15,7 @@ import ShadcnTable from "@/components/shadcn/Table";
 export default function ShadcnPage() {
   return (
     <div className="flex flex-col gap-4 py-4">
+      <span className="flex justify-center text-2xl font-bold">Shadcn UI</span>
       <div className="flex justify-between">
         <div className="flex gap-2">
           <Input type="email" placeholder="Email" className="w-60" />
@@ -39,7 +40,6 @@ export default function ShadcnPage() {
           <Button variant="outline">Button</Button>
         </div>
       </div>
-
       <div>
         <ShadcnTable />
       </div>
